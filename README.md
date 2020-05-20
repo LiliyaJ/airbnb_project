@@ -28,7 +28,7 @@ Excapt for the first four methods that aim to automize some repetitive processes
 
 #### <a name="Results">Results ####
 
-The main findings are summarized in this post.
+[The main findings are summarized in this post](https://medium.com/@liliya.jeromin/this-is-why-you-need-to-rethink-how-to-use-airbnb-64963ae61d06?sk=50a80ef8b27eb233d0e6e61b1ed01511).
 
 #### <a name="LicensingAuthorsAcknowledgements">Licensing, Authors, and Acknowledgements ####
 
