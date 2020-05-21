@@ -1,16 +1,15 @@
 ## Airbnb_project ##
 
 ### Table of content ###
-1. [Installations](#Installations)
-2. [Project Motivation](#ProjectMotivation)
-3. [File Descriptions](#FileDescriptions)
-4. [Results](#Results)
-5. [Licensing, Authors, and Acknowledgements](#LicensingAuthorsAcknowledgements)
 
-#### <a name="Installations">Installations ####
-The code is written in Python virsion 3. 
-Extra installed libraries: numpy, pandas, matplotlib.pyplot, sklearn.linear_model - LinearRegression, sklearn.model_selection - train_test_split, 
-sklearn.metrics - r2_score, mean_squared_error, seaborn, nltk - stopwords 
+1. [Project Motivation](#ProjectMotivation)
+2. [Introduction](#Introduction)
+3. [Installations](#Installations)
+4. [File Descriptions](#FileDescriptions)
+5. [Process](#Process)
+6. [Results](#Results)
+7. [Licensing, Authors, and Acknowledgements](#LicensingAuthorsAcknowledgements)
+
 
 #### <a name="ProjectMotivation">Project Motivation ####
 I used Airbnb data for Boston and a bit for Seattle from the years 2016, 2017 to better understand:
@@ -21,10 +20,24 @@ I used Airbnb data for Boston and a bit for Seattle from the years 2016, 2017 to
 4. What else affect the price?
 5. What is really matters to the guests?
 
+### <a name="Introduction">Introduction ####
+Each Airbnb set contains three files with information about description of apartment, neighbourhood, locations, availibility, prices, reveiws, reviews scores, review comments etc. This project is meant to deliver result observations based on analysis of the data. 
+  
+#### <a name="Installations">Installations ####
+The code is written in Python virsion 3. 
+Extra installed libraries: numpy, pandas, matplotlib.pyplot, sklearn.linear_model - LinearRegression, sklearn.model_selection - train_test_split, 
+sklearn.metrics - r2_score, mean_squared_error, seaborn, nltk - stopwords 
+  
 #### <a name="FileDescriptions">File Descriptions ####
+There is one notebook summary.ipynd with the code that helps to answer the questions and visualize the results. In the notebook every step belongs to a question.
+Except for the first four methods that aim to automize some repetitive processes in workint with the data sets.
 
-There is one notrbook with the code that helps to answer the questions and visualize the results. In the notebook every step belongs to a question.
-Excapt for the first four methods that aim to automize some repetitive processes in workint with the data sets.
+File with standard stop words, wich I used to clear commentars.
+
+File with feature list which were used for the regression modeling. Just for those who are curious.
+
+#### <a name="Process">Process ####
+The process starts with understanding which business questions could one try to unswer with the data set. Defining the questions which I want to answer. Then preapeating and cleaning the data which includes checking all data I might need, turning them into right type, dealing with nulls and categorical variables etc. Modelling with analysing the results. Visualizing the results. Evaluating the results and making conclusions. 
 
 #### <a name="Results">Results ####
 
